@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Menu Styles */
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.menu-item {
+    width: 200px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+}
+
+.menu-item h3 {
+    margin-top: 0;
+}
+
+.menu-item p {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+/* Order List Styles */
+#order-list {
+    margin-top: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#order-list h2 {
+    margin-top: 0;
+}
+
+#order-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+#order-items li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Place Order Button Styles */
+#place-order-btn {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 20px auto;
+}
+
+#place-order-btn:hover {
+    background-color: #555;
+}
